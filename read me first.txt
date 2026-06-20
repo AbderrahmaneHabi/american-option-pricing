@@ -1,0 +1,10 @@
+# Institutional Derivatives Underwriting Desk
+
+A full-stack quantitative application that prices American put options using the Longstaff-Schwartz Least Squares Monte Carlo (LSM) method. 
+
+## Features
+* **Manual Parameter Estimation:** Derives moments (volatility, drift) from first principles using historical data.
+* **Risk-Neutral GBM Simulation:** Monte Carlo framework tracking 10,000 independent asset paths.
+* **American Put Pricing:** Polynomial regression backwards induction solving for early exercise premiums.
+* **Backtesting Engine:** Ingests live 2025 market data to evaluate realistic payoffs and client behavioral triggers.
+* **Portfolio Matrix:** Multi-asset ledger tracking aggregate PnL for both the clearinghouse and the buyer.
